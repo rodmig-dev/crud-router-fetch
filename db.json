@@ -1,0 +1,24 @@
+{
+  "contacts": [
+    {
+      "id": "cdca",
+      "name": "Rodolfo Martins",
+      "phone": "16991747243"
+    },
+    {
+      "id": "db03",
+      "name": "João Tenório",
+      "phone": "19956748753"
+    },
+    {
+      "id": "d474",
+      "name": "Abílio",
+      "phone": "41978874521"
+    },
+    {
+      "id": "8960",
+      "name": "Péricles Sampaio",
+      "phone": "12921568998"
+    }
+  ]
+}
