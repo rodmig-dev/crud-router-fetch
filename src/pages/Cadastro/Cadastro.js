@@ -26,14 +26,6 @@ function Cadastro({ contacts, setContacts }) {
     }
   };
 
-  /*const handleSubmit = (e) => {
-    e.preventDefault();
-    const newContact = { id: Date.now(), name, phone };
-    setContacts([...contacts, newContact]);
-    setName("");
-    setPhone("");
-  };*/
-
   return (
     <div className="cadastro-container">
       <h2>Cadastrar Contato</h2>

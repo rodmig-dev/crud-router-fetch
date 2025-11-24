@@ -25,10 +25,6 @@ function Lista({ contacts, setContacts }) {
     }
   };
 
-  /*const handleDelete = (id) => {
-    setContacts(contacts.filter((c) => c.id !== id));
-  };*/
-
   const getContacts = async () => {
     try {
       const response = await fetch("http://localhost:3000/contacts");
@@ -49,8 +45,6 @@ function Lista({ contacts, setContacts }) {
     setNewName(contact.name);
     setNewPhone(contact.phone);
   };
-
-  /////////////////////////////////////////////////////////
 
   const handleSave = async (id) => {
     try {
@@ -73,16 +67,6 @@ function Lista({ contacts, setContacts }) {
       console.error("Erro ao atualizar contato!", error);
     }
   };
-
-  /////////////////////////////////////////////////////////
-  /*const handleSave = (id) => {
-    setContacts(
-      contacts.map((c) =>
-        c.id === id ? { ...c, name: newName, phone: newPhone } : c
-      )
-    );
-    setEditingId(null);
-  };*/
 
   return (
     <div className="lista-container">
